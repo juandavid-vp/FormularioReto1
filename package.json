@@ -1,0 +1,21 @@
+{
+  "name": "Reto",
+  "version": "1.0.0",
+  "description": "Oferta Laboral Reto #1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "dev": "nodemon servidor.js"
+  },
+  "author": "Juan David Velez Piedrahita",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
